@@ -1,6 +1,7 @@
 {
     "DeviceAcquisitionDate": "2025-11-03",
     "Measurements": {},
+    "DeviceID": "6c:b2:fd:f0:1f:cb",
     "Data": {"ECG": [
         [
             2,

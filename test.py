@@ -2,8 +2,8 @@ import os
 import json
 import requests
 
-# API_URL = "https://mock-api-wg2l.onrender.com/predict"   
-API_URL = "http://localhost:10000/predict"
+API_URL = "https://mock-api-wg2l.onrender.com/predict"   
+# API_URL = "http://localhost:10000/predict"
 
 SAMPLES_DIR = "mock requests samples"              # folder containing your JSON files
 
