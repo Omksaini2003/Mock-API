@@ -1,0 +1,27 @@
+{
+  "ecgId": "c7b8174e-c41e-4269-9e47-7ca79d089199",
+  "patientId": "4",
+  "patientName": null,
+  "age": "22",
+  "gender": "M",
+  "interpretation": "Normal ECG; Sinus Rhythm; Please correlate clinically",
+  "parameters":{
+    "heart rate": 0,
+    "qrs duration": 0,
+    "qt": 0,
+    "qtc": 0,
+    "pri": 0,
+    "p-r-t": [0, 0, 0]
+  },
+  "acquisitionTime": "03/11/2025 12:41:00 PM",
+  "acquisitionTimeSec": "03/11/2025 12:41:20 PM",
+  "interpretationTime": "03/11/2025 12:41:00 PM",
+  "centerId": 6486,
+  "centerAddress": "No: 2107, 13th Main Rd, L Block,  Chennai, Tamil Nadu 600026",
+  "centerCity": "bengaluru",
+  "centerPin": "573116",
+  "tricogDeviceId": "API_UPLOAD",
+  "reportPdfExpiry": "03/12/2025 12:41:26 PM",
+  "reportPdfUrl": "https://uat-ou-ecg-image-tricog.s3.ap-southeast-1.amazonaws.com/c7b8174e-c41e-4269-9e47-7ca79d089199.pdf?AWSAccessKeyId=ASIAS2RG66BJBXD4HI3V&Expires=1764745887&Signature=95c5MJK%2BLZ1LAXIzgODPm%2Flozo0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkgwRgIhALY1ykEoLmCFZaL%2FFW%2Bj1NYeWtC8rac%2Bx9HWYwr0ziCzAiEAulfZbv4YftS6Gu2fm5o8Hi31H2WQ3ygx9l4FwotgpKYqlgUIWBAAGgwxOTQ0Mjg5ODk1MjIiDKFKgvw0PVJDkQo7dCrzBOf4%2B8svntQJ4hPr7TMC%2BD5B6dE1PqX3tp3Ss2%2FTS%2FntQNtmbbiKGi0WS2RXuR7JaNSUPxeiJg7pO1O0HIgqsd3YxtY62V1lPLbD%2Fqei%2BV6NlvE%2BVDgGmI0rolH%2FAYphbKJuSlUAv8yllcp1s04Fz2dX20L5rvfqnz5Izh3y6N6kepq%2BEMnvcx5CcAezhI7TynHT7WDMV5M2DfXPNd9jP5eNBYdp%2BoBTPSSpQ5VkquiQ407GHG5KHk%2FgFxOiLDquhyqb5nVULjpgsA2XHN%2ByohDqYXUzw9lMTz%2Byn73LrsDGDcvEmQvnlVU43Q%2FaZYdX%2FESoxVkpPOyZR9q1JrdB3D%2FIiy6eRpFW767%2BTKHmh2bUW2kK163lQKNuH%2FuqlOO14CSq2%2BNYcnvH8C%2BKQDgXLX8kfOQIBMGbwgLt8KSs1fyaQ5vTGDTEpFEB2qX6rCVphGY4hbo8keqUapOroGLchgIW5OiwsURrdl1wmJIjI4S9otS7VUPKvNdwXqRra%2FUARyLHNgL%2F54fqGVZPN329rrwzubjz7jd%2Bpqpzul0Iy0Zn3ctNRyirsxHUkjpLNFIgZZaOdaBt532%2FOWApe%2FjbTSR2j423WAqidQ11mpYjSegxVX9UerKaIsPqtfalB%2BfgsMO1XsNJ%2Fon9zXbyw7uBmVdxMVK78B4IQRSvuos2Nixfiu2hkoQDRTRzXI2qTg%2FY9X7bh6YsP4VaFFAQDHPoBhAub4z2iEsto%2BEaMjYgjaCTQaKndUzJnZE35GPGYq83incXbodCg5j6xjgGYW9B%2BoCDXaIcQgq%2BAoWMFsjlkAkqDrFutV9a0dBNsj5kFCbEMtuOejCfq6HIBjqYAcLXjh%2BLAXQLhjzMCg8FBZmUoZ7LrMV2u2HBgzqfTbRGWxLYXCmj%2FzGnWdZt3hZY80LZY5TdHci4zmtJZyd7N8UFzkDIkoWr1W%2BbMhQF1L%2BlW%2B%2FRWgnlzP0dp95eHaQ8oLMeoJNBI0oi6O5LvhbjdjXx4laPF9DwfdsyWhHv0Z3i8rMvZ2uOhnAWwv2a4xfTJBVhq0jUL3xS",
+  "measurements": null
+}

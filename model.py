@@ -1,15 +1,13 @@
+import json
+from pathlib import Path
+
 class MockModel:
     def __init__(self):
-        pass
+        json_path = Path(__file__).parent / "response.json"
+        with open(json_path, "r") as f:
+            self.response = json.load(f)
 
     def predict(self, data):
-        # Always returns the same mock result
-        return {
-            "prediction": "mock_output",
-            "confidence": 0.55,
-            "model_version": "0.0.1-mock"
-        }
+        return self.response
 
-
-# Create a global instance
 model = MockModel()
