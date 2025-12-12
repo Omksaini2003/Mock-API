@@ -2,8 +2,7 @@
     "DeviceAcquisitionDate": "2025-11-03",
     "Measurements": {},
     "DeviceID": "84:c6:92:5b:26:82",
-    "Data": {"ECG": 
-    [
+    "Data": {"ECG": [
         [
             2,
             -0.013888889,
@@ -75004,8 +75003,7 @@
             0,
             0
         ]
-    ]
-},
+    ]},
     "Gender": "M",
     "Height": 180,
     "Weight": 70, 
@@ -75037,5 +75035,3 @@
     "RecordID": "",
     "Age": "22"
 }
-
-

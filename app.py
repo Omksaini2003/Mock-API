@@ -1,5 +1,7 @@
-from fastapi import FastAPI, Request
+import json
+from fastapi import FastAPI, HTTPException, Request
 from model import model
+from request_model import PredictRequest
 
 app = FastAPI(
     title="ML Mock API",
@@ -7,12 +9,14 @@ app = FastAPI(
     version="0.0.1"
 )
 
+
+
 @app.get("/")
 def health():
     return {"status": "ok", "message": "mock api running"}
 
 @app.post("/predict")
-async def predict(request: Request):
-    data = await request.json()
-    output = model.predict(data)
+async def predict(payload: PredictRequest):
+    # payload is now validated
+    output = model.predict(payload.model_dump_json())
     return output
