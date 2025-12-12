@@ -1,5 +1,7 @@
 import json
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.responses import JSONResponse
+from pydantic import ValidationError
 from model import model
 from request_model import PredictRequest
 
@@ -15,8 +17,20 @@ app = FastAPI(
 def health():
     return {"status": "ok", "message": "mock api running"}
 
+
 @app.post("/predict")
-async def predict(payload: PredictRequest):
-    # payload is now validated
-    output = model.predict(payload.model_dump_json())
-    return output
+async def predict(request: Request):
+    raw = await(request.json())
+
+    try:
+        parsed = PredictRequest(**raw)
+    except ValidationError:
+        return JSONResponse(
+            status_code=400,
+            content={
+                "status": "invalid_request",
+                "message": "Request structure is incorrect."
+            }
+        )
+
+    return model.predict(parsed.model_dump())
