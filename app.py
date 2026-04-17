@@ -22,15 +22,16 @@ def health():
 async def predict(request: Request):
     raw = await(request.json())
 
-    try:
-        parsed = PredictRequest(**raw)
-    except ValidationError:
-        return JSONResponse(
-            status_code=400,
-            content={
-                "status": "invalid_request",
-                "message": "Request structure is incorrect."
-            }
-        )
+    # try:
+    #     parsed = PredictRequest(**raw)
+    # except ValidationError:
+    #     return JSONResponse(
+    #         status_code=400,
+    #         content={
+    #             "status": "invalid_request",
+    #             "message": "Request structure is incorrect."
+    #         }
+    #     )
 
-    return model.predict(parsed.model_dump())
+    # return model.predict(parsed.model_dump())
+    return model.predict(raw)
